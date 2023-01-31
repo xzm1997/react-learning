@@ -4,7 +4,7 @@ import './index.css';
 
 export function UserInfo(props) {
   return (
-    <div className='userInfo'>
+    <div>
       <img 
         src='https://img1.baidu.com/it/u=2017107515,121176475&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500' 
         alt='ava'

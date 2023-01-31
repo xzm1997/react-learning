@@ -30,14 +30,14 @@ export function BookInfo(props) {
       <div className='totalTitle'>预定信息</div>
       <UserInfo userName={props.userName} />
       <div className='infoDisplay'>
-        <div className='infoItem leftSide'>
+        <ul className='infoItem leftSide'>
           <InfoShow title='航空公司' content={props.ticketInfo.airline}/>
           <InfoShow title='航班号' content={props.ticketInfo.flightNum}/>
-        </div>
-        <div className='infoItem rightSide'>
+        </ul>
+        <ul className='infoItem rightSide'>
           <InfoShow title='航班舱位' content={props.ticketInfo.level}/>
           <InfoShow title='航班机型' content={props.ticketInfo.plane}/>
-        </div>
+        </ul>
       </div>
     </div>
     )

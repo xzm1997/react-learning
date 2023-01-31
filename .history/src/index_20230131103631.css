@@ -1,0 +1,38 @@
+.contentDisplay {
+  
+}
+
+.ava {
+  width: 70px;
+  border-radius: 10px;
+}
+
+.userName {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.bookTitle {
+  color: #aaa;
+}
+
+.totalTitle {
+  font-size: 24px;
+
+}
+
+.bookContent {
+  font-weight: 700;
+}
+
+.infoDisplay {
+  display: flex;
+}
+
+.infoItem {
+  width: 100px;
+}
+
+.rightSide {
+  text-align: right;
+}

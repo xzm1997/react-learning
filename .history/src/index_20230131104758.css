@@ -13,6 +13,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 210px;
+  padding-bottom: 5px;
+  border-bottom: solid 2px #bbb;
 }
 
 .ava {
@@ -33,7 +36,10 @@
 .totalTitle {
   font-size: 20px;
   font-weight: 700;
-  border-bottom: solid 2px #aaa;
+  text-align: center;
+  width: 210px;
+  padding-bottom: 5px;
+  border-bottom: solid 2px #bbb;
 }
 
 .bookContent {

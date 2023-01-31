@@ -31,11 +31,11 @@ export function BookInfo(props) {
       <UserInfo userName={props.userName} />
       <div className='infoDisplay'>
         <div className='infoItem leftSide'>
-          <InfoShow title='航空公司' content={props.ticketInfo.airline}/>
-          <InfoShow title='航班号' content={props.ticketInfo.flightNum}/>
+          <InfoShow title='航空公司' className='leftSide' content={props.ticketInfo.airline}/>
+          <InfoShow title='航班号' className='leftSide' content={props.ticketInfo.flightNum}/>
         </div>
         <div className='infoItem rightSide'>
-          <InfoShow title='航班舱位' content={props.ticketInfo.level}/>
+          <InfoShow title='航班舱位' className='leftSide' content={props.ticketInfo.level}/>
           <InfoShow title='航班机型' content={props.ticketInfo.plane}/>
         </div>
       </div>

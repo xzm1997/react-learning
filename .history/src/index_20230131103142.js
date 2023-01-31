@@ -4,9 +4,9 @@ import './index.css';
 
 export function UserInfo(props) {
   return (
-    <div className='userInfo'>
+    <div>
       <img 
-        src='https://img1.baidu.com/it/u=2017107515,121176475&fm=253&fmt=auto&app=138&f=JPEG?w=500&h=500' 
+        src='https://hbimg.huabanimg.com/2dbbc9177be8b9912b2a0d881200dd47ccb84d92710aa-IepOs1_fw658' 
         alt='ava'
         className='ava'
       ></img>
@@ -26,7 +26,7 @@ export function InfoShow(props) {
 
 export function BookInfo(props) {
   return (
-    <div className='contentDisplay'>
+    <div>
       <div className='totalTitle'>预定信息</div>
       <UserInfo userName={props.userName} />
       <div className='infoDisplay'>
