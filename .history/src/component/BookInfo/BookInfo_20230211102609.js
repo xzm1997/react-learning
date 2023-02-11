@@ -44,13 +44,6 @@ export default class BookInfo extends React.Component {
   }
 
   componentWillUnmount() {
-    clearInterval(this.timerID);
-  }
-
-  tick() {
-    this.setState({
-      date: new Date()
-    });
   }
 
   render() {

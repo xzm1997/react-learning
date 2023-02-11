@@ -47,12 +47,6 @@ export default class BookInfo extends React.Component {
     clearInterval(this.timerID);
   }
 
-  tick() {
-    this.setState({
-      date: new Date()
-    });
-  }
-
   render() {
     return (
       <div className='contentDisplay'>

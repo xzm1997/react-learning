@@ -29,30 +29,6 @@ function InfoShow(props) {
 }
 
 export default class BookInfo extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      date: new Date()
-    }
-  }
-
-  componentDidMount() {
-    this.timerID = setInterval(
-      () => this.tick(),
-      1000
-    );
-  }
-
-  componentWillUnmount() {
-    clearInterval(this.timerID);
-  }
-
-  tick() {
-    this.setState({
-      date: new Date()
-    });
-  }
-
   render() {
     return (
       <div className='contentDisplay'>
@@ -61,7 +37,7 @@ export default class BookInfo extends React.Component {
         <div className='infoDisplay'>
           <div className='infoItem leftSide'>
             {/* <InfoShow title='航空公司' content={this.props.ticketInfo.airline}/> */}
-            <InfoShow title='预定时间' content={this.state.date.toLocaleTimeString()}/>
+            <InfoShow title='预定时间' content={this.state}/>
             <InfoShow title='航班号' content={this.props.ticketInfo.flightNum}/>
           </div>
           <div className='infoItem rightSide'>
