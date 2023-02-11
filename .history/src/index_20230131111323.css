@@ -1,0 +1,72 @@
+.contentDisplay {
+  width: 300px;
+  border: solid 1px #fff;
+  background: lemonchiffon;
+  border-radius: 20px;
+  padding:5px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 330px;
+  padding: 7px;
+  border-bottom: solid 1px #bbb;
+}
+
+.ava {
+  width: 70px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+
+.userName {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.bookTitle {
+  color: #aaa;
+}
+
+.totalTitle {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  width: 300px;
+  padding-bottom: 5px;
+  border-bottom: solid 1px #bbb;
+}
+
+.bookContent {
+  font-weight: 700;
+}
+
+.infoShow {
+  padding: 5px 0;
+}
+
+.bookTitle {
+  padding: 2px 0;
+}
+
+.bookContent {
+  padding: 2px 0;
+}
+
+.infoDisplay {
+  display: flex;
+}
+
+.infoItem {
+  width: 140px;
+}
+
+.rightSide {
+  text-align: right;
+}

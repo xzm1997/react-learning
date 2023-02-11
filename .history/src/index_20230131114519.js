@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-import BookInfo from './component/BookInfo/BookInfo.js'
+import BookInfo from './component/BookInfo.js'
 
 
 export function Root() {
