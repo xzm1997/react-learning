@@ -2,18 +2,17 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 
-// import BookInfo from './component/BookInfo/BookInfo.js'
-import App from './component/TextChange/TextChange.js'
+import BookInfo from './component/BookInfo/BookInfo.js'
 
 
 export function Root() {
-  // const userName = '王大老虎';
-  // const ticketInfo = {
-  //   airline : '汉莎航空',
-  //   flightNum : 'LH7324',
-  //   level : '超级经济舱',
-  //   plane : '空客a350'
-  // }
+  const userName = '王大老虎';
+  const ticketInfo = {
+    airline : '汉莎航空',
+    flightNum : 'LH7324',
+    level : '超级经济舱',
+    plane : '空客a350'
+  }
   // return (
   //   <div>
   //     <BookInfo 
@@ -22,11 +21,6 @@ export function Root() {
   //     />
   //   </div>
   // )
-  return (
-    <div>
-      <App />
-    </div>
-  )
 }
 
 // ========================================

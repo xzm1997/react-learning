@@ -1,0 +1,20 @@
+import { useState } from 'react';
+
+const Son = ({ setCount }) => {
+    return <button onClick={() => setCount(count => count + 1)}>点击+1</button>;
+};
+
+const Father = () => {
+  const setFunc = function() {
+    count += 1;
+  }
+  const [count, setCount] = useState(0);
+  return (
+    <div>
+        <div>计数值：{count}</div>
+        <Son setCount={setCount} />
+    </div>
+  );
+};
+
+export default Father;

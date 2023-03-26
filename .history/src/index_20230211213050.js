@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 
 // import BookInfo from './component/BookInfo/BookInfo.js'
-import App from './component/TextChange/TextChange.js'
+import HomePage from './component/TextChange/TextChange.js'
 
 
 export function Root() {
@@ -24,7 +24,7 @@ export function Root() {
   // )
   return (
     <div>
-      <App />
+      <HomePage />
     </div>
   )
 }
